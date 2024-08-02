@@ -28,8 +28,7 @@ export class AppComponent implements AfterViewInit {
 
     const featureTable = new FeatureTable({
       layer: fedLayer,
-      // @ts-ignore
-      layers: [collegeLayer, fedLayer],
+      // layers: [collegeLayer, fedLayer],
       // visibleElements: {
       //   layerDropdown: true
       // },
